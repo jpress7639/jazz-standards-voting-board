@@ -84,8 +84,7 @@ I used Claude (in the claude.ai chat interface) as a pair-programming assistant.
 
 ### Tuesday, Oct 13:
 30 minutes (11AM - 11:30AM) initial app setup and dependencies
-About 1 hour (3:30-4:30 PM)
 
 ### Wednesday, Oct 14: 
-About 1 hour (12:15–1:15 PM).
+About 2 hours (12:15–2:15 PM).
  
