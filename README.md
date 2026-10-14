@@ -81,7 +81,7 @@ All data access goes through `lib/store.ts`, so pages and actions never touch th
 
 ## AI usage
  
-I used Claude (in the claude.ai chat interface) as a pair-programming assistant. This tool doesn't use an instruction or context file like `CLAUDE.md`, so there's nothing to commit. I worked with it conversationally: debating on how to approach this problem and what the focus should be on. Eventually, I chose the theme and scope, along with the hierarchal structure. Having already had a JSON file, I also had asked how each standard should be routed and agreed on writing the [slug] component method. Each code stack besides installments were done from my VS Code Editor under the documented hours on Wednesday October 14th. 
+I used Claude (in the claude.ai chat interface) as a pair-programming assistant. This tool doesn't use an instruction or context file like `CLAUDE.md`, so there's nothing to commit. I worked with it on a consultation: debating on how to approach this problem and what the focus should be on, along with how the app should be routed. Eventually, I chose the theme and scope, along with the hierarchal structure. Having already had a JSON file, I also had asked how each standard should be routed and agreed on writing the [slug] component method. Each code stack besides installments were done from my VS Code Editor under the documented hours on Wednesday October 14th. 
 
 ## Time spent
 
@@ -91,5 +91,5 @@ I used Claude (in the claude.ai chat interface) as a pair-programming assistant.
 
 ### Wednesday, Oct 14: 
 - About 2 hours (12:15–2:15 PM): Page building, component build, layout, responsiveness, data testing from JSON, slug page build
-- Tested in localhost
+- Tested in localhost, pushed into GitHub repository
  
