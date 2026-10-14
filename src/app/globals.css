@@ -38,3 +38,8 @@ body {
   color: #D4AF37;
   font-family: 'Boogaloo', cursive;
 }
+
+.white{
+  background: white;
+  color: black;
+}

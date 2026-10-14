@@ -11,11 +11,11 @@ export default async function HomePage() {
   return (
     <main className="mx-auto max-w-3xl px-4 py-8 sm:px-6 sm:py-12 lg:py-16">
       <header className="mb-8 sm:mb-10">
-        <p className="title text-xs font-semibold uppercase tracking-widest text-amber-600 sm:text-sm">
+        <p className="title text-xs font-semibold uppercase tracking-widest text-amber-600 lg:text-xl">
           Jazz Standards Board
         </p>
         <h1 className="font-display mt-2 text-3xl leading-tight tracking-tight sm:text-4xl lg:text-5xl">
-          Which standard should students learn?
+          Which standard should jazz students learn?
         </h1>
         <p className="mt-3 text-sm text-neutral-500 sm:text-base">
           Vote for your favorites. The list re-sorts as votes come in.

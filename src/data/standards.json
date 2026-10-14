@@ -10,7 +10,7 @@
     "recordings": [
       { "artist": "Coleman Hawkins", "album": "Body and Soul (single)", "recorded": 1939 },
       { "artist": "John Coltrane", "album": "Coltrane's Sound", "recorded": 1960 },
-      { "artist": "Amy Winehouse and Tony Bennett", "album": "Duets Volume 1", "recorded": 2011 }
+      { "artist": "Amy Winehouse and Tony Bennett", "album": "Duets II", "recorded": 2011 }
     ],
     "votes": 18
   },
@@ -53,7 +53,8 @@
     "blurb": "Monk's dark, slow-burning ballad, full of chromatic voice leading and unexpected resolutions. Miles Davis's quintet version made it a signature, but Monk's own recordings show how much the tune lives in its harmony.",
     "recordings": [
       { "artist": "Thelonious Monk", "album": "Genius of Modern Music, Vol. 1", "recorded": 1947 },
-      { "artist": "Miles Davis", "album": "'Round About Midnight", "recorded": 1956 }
+      { "artist": "Miles Davis", "album": "'Round About Midnight", "recorded": 1956 },
+      { "artist": "Carmen McRae", "album": "Carmen Sings Monk", "recorded": 1988 }
     ],
     "votes": 27
   },
@@ -109,7 +110,7 @@
       { "artist": "Dinah Shore", "album": "Belle of the Yukon", "recorded": 1944 },
       { "artist": "Bjork", "album": "Debut", "recorded": 1993 }
     ],
-    "votes": 25
+    "votes": 10
   },
   {
     "slug": "there-will-never-be-another-you",
@@ -134,20 +135,23 @@
     "tags": ["post-bop", "advanced"],
     "blurb": "Key centers that leap by major thirds at a blistering tempo. The \"Coltrane changes\" became a rite of passage, and even Tommy Flanagan audibly wrestled with them on the original session.",
     "recordings": [
-      { "artist": "John Coltrane", "album": "Giant Steps", "recorded": 1959 }
+      { "artist": "John Coltrane", "album": "Giant Steps", "recorded": 1959 },
+      { "artist": "New York Voices", "album": "Hearts of Fire", "recorded": 1991 }
     ],
     "votes": 16
   },
   {
-    "slug": "stella-by-starlight",
-    "title": "Stella by Starlight",
-    "composers": ["Victor Young", "Ned Washington"],
-    "year": 1944,
-    "form": "32 bars, through-composed",
+    "slug": "embraceable-you",
+    "title": "Embraceable You",
+    "composers": ["George Gershwin", "Ira Gershwin"],
+    "year": 1930,
+    "form": "32 bars, \"ballad\"",
     "tags": ["Great American Songbook", "film"],
     "blurb": "Written for the film The Uninvited, it opens on a half-diminished chord and winds through a progression that never quite repeats. A favorite for players who like harmony that keeps them guessing.",
     "recordings": [
-      { "artist": "Miles Davis", "album": "My Funny Valentine", "recorded": 1964 }
+      { "artist": "Judy Garland", "album": "Girl Crazy", "recorded": 1943 },
+      { "artist": "Frank Sinatra", "album": "Nice 'n' Easy", "recorded": 1944 },
+      { "artist": "Chet Baker", "album": "Chet Baker Sings", "recorded": 1957 }
     ],
     "votes": 14
   },
@@ -164,5 +168,38 @@
       { "artist": "Miles Davis", "album": "Miles Smiles", "recorded": 1966 }
     ],
     "votes": 20
+  },
+  {
+    "slug": "i-didnt-know-what-time-it-was",
+    "title": "I Didn't Know What Time It Was",
+    "composers": ["Richard Rodgers", "Lorenz Hart"],
+    "year": 1939,
+    "form": "32 bars, AABA",
+    "tags": ["Great American Songbook", "vocal"],
+    "blurb": "A classic ballad with a memorable melody and sophisticated harmonic structure. Frequently performed by jazz vocalists and instrumentalists alike.",
+    "recordings": [
+      { "artist": "Benny Goodman", "album": "Benny Goodman Classics", "recorded": 1939 },
+      { "artist": "Ella Fitzgerald", "album": "Ella Fitzgerald Sings the Rodgers & Hart Songbook", "recorded": 1956 },
+      { "artist": "Betty Carter", "album": "Betty Carter at the Village Vanguard", "recorded": 1970 },
+      { "artist": "Brad Mehldau", "album": "Art of the Trio Vol. 1", "recorded": 1997 },
+      { "artist": "Cecile McLorin Salvant", "album": "WomanChild", "recorded": 2013 }
+    ],
+    "votes": 13
+  }, 
+  {
+    "slug": "the-girl-from-ipanema",
+    "title": "The Girl from Ipanema",
+    "composers": ["Antônio Carlos Jobim", "Vinícius de Moraes"],
+    "year": 1962,
+    "form": "32 bars, AABA",
+    "tags": ["bossa nova", "vocal"],
+    "blurb": "A quintessential bossa nova tune that gained international fame through Astrud Gilberto's recording with Stan Getz. Its gentle rhythm and memorable melody make it a favorite among jazz and pop musicians alike.",
+    "recordings": [
+      { "artist": "Astrud Gilberto & Stan Getz", "album": "Getz/Gilberto", "recorded": 1963 },
+      { "artist": "João Gilberto", "album": "Getz/Gilberto", "recorded": 1963 },
+      { "artist": "Frank Sinatra", "album": "Francis Albert Sinatra & Antônio Carlos Jobim", "recorded": 1967 },
+      { "artist": "Ella Fitzgerald", "album": "Ella Abraça Jobim", "recorded": 1981 }
+    ],
+    "votes": 23
   }
 ]

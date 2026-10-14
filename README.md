@@ -72,19 +72,24 @@ All data access goes through `lib/store.ts`, so pages and actions never touch th
 - **The store uses `server-only`**, so importing it into a client component fails the build.
 ## What I'd do with more time
  
-- Persist votes in a database, and wrap reads in React's `cache()` to deduplicate the lookups that `generateMetadata` and the page both make.
+- Allow users to add in more standards if a song was not listed.
+- Allow users to add in more versions made by other artists. 
+- Persist votes in a database, and wrap reads in React's cache() to deduplicate the lookups that generateMetadata and the page both make.
 - Limit votes to one per visitor.
 - Add filtering by tag (era, form, difficulty) through search params.
 - Add tests for the store and the server action.
+
 ## AI usage
  
-I used Claude (in the claude.ai chat interface) as a pair-programming assistant. This tool doesn't use an instruction or context file like `CLAUDE.md`, so there's nothing to commit. I directed it conversationally: debating on how to approach this problem and what the focus should be on. Eventually, I chose the theme and scope, along with the hierarchal structure. Having already had a JSON file, I also had asked how each standard should be routed and agreed on writing the [slug] component method. 
+I used Claude (in the claude.ai chat interface) as a pair-programming assistant. This tool doesn't use an instruction or context file like `CLAUDE.md`, so there's nothing to commit. I worked with it conversationally: debating on how to approach this problem and what the focus should be on. Eventually, I chose the theme and scope, along with the hierarchal structure. Having already had a JSON file, I also had asked how each standard should be routed and agreed on writing the [slug] component method. Each code stack besides installments were done from my VS Code Editor under the documented hours on Wednesday October 14th. 
 
 ## Time spent
 
 ### Tuesday, Oct 13:
-30 minutes (11AM - 11:30AM) initial app setup and dependencies
+- 30 minutes (10:30AM - 11AM): brainstorming, planning development stages, and timeline
+- 30 minutes (11AM - 11:30AM): initial app setup and dependencies
 
 ### Wednesday, Oct 14: 
-About 2 hours (12:15–2:15 PM).
+- About 2 hours (12:15–2:15 PM): Page building, component build, layout, responsiveness, data testing from JSON, slug page build
+- Tested in localhost
  

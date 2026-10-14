@@ -50,7 +50,7 @@ export default async function StandardPage({ params }: Props) {
         <VoteButton slug={standard.slug} votes={standard.votes} />
       </header>
 
-      <dl className="mt-8 grid grid-cols-2 gap-4 rounded-xl border border-neutral-200 p-4 dark:border-neutral-800">
+      <dl className="white mt-8 grid grid-cols-2 gap-4 rounded-xl border border-neutral-200 p-4 dark:border-neutral-800">
         <div>
           <dt className="text-xs uppercase tracking-widest text-neutral-400">Year</dt>
           <dd className="mt-1 font-medium">{standard.year}</dd>
@@ -58,24 +58,24 @@ export default async function StandardPage({ params }: Props) {
         <div>
           <dt className="text-xs uppercase tracking-widest text-neutral-400">Form</dt>
           <dd className="mt-1 font-medium">{standard.form}</dd>
+          <ul className="mt-6 flex flex-wrap gap-1.5">
+            {standard.tags.map((tag) => (
+              <li
+                key={tag}
+                className="rounded-full bg-neutral-100 px-2 py-0.5 text-xs text-neutral-600 dark:bg-neutral-800 dark:text-neutral-300"
+              >
+                {tag}
+              </li>
+            ))}
+          </ul>
         </div>
+
       </dl>
 
-      <p className="mt-8 text-lg leading-relaxed">{standard.blurb}</p>
+      <p className="white p-4 mt-8 text-lg leading-relaxed">{standard.blurb}</p>
 
-      <ul className="mt-6 flex flex-wrap gap-1.5">
-        {standard.tags.map((tag) => (
-          <li
-            key={tag}
-            className="rounded-full bg-neutral-100 px-2 py-0.5 text-xs text-neutral-600 dark:bg-neutral-800 dark:text-neutral-300"
-          >
-            {tag}
-          </li>
-        ))}
-      </ul>
-
-      <section className="mt-10">
-        <h2 className="text-sm font-semibold uppercase tracking-widest text-amber-600">
+      <section className="mt-10 white p-4">
+        <h2 className="text-sm font-semibold uppercase underline tracking-widest text-amber-600">
           Essential recordings
         </h2>
         <ul className="mt-4 divide-y divide-neutral-200 dark:divide-neutral-800">
