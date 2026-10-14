@@ -68,7 +68,7 @@ All data access goes through `lib/store.ts`, so pages and actions never touch th
 - **Persistence is in-memory.** The store is seeded from `standards.json` and lives for the life of the server process, so votes reset on restart. The brief asked for a server action that changes something meaningful, not durable storage, so I kept the scope tight. On serverless hosts such as Vercel, separate instances wouldn't share votes. The store's functions are async even though the data is in memory, so swapping in SQLite or Postgres would only change `store.ts`.
 - **There are no accounts or vote limits.** Anyone can vote any number of times. A real version would need auth or at least rate limiting.
 - **Both pages render dynamically** (`force-dynamic`), because they show live vote counts. If the detail page didn't show votes, I'd prerender it with `generateStaticParams`.
-- **The data is hand-curated.** I chose to use a small JSON data set instead of using a mock API, to avoid an external dependency and to fit the theme. Starting vote counts are arbitrary, so the sorting is visible on first load. Years and forms are the commonly cited ones, and a few are arguable.
+- **The data is hand-curated.** I chose to use a small JSON data set instead of using a mock API, to avoid an external dependency and to fit the theme. This JSON file was something I already had in my arsenal from a previous project and chose to use this schema. The object had to be altered by adding tags and votes.
 - **The store uses `server-only`**, so importing it into a client component fails the build.
 ## What I'd do with more time
  
