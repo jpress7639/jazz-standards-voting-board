@@ -1,0 +1,168 @@
+[
+  {
+    "slug": "body-and-soul",
+    "title": "Body and Soul",
+    "composers": ["Johnny Green", "Edward Heyman", "Robert Sour", "Frank Eyton"],
+    "year": 1930,
+    "form": "AABA, 32 bars",
+    "tags": ["ballad", "Great American Songbook", "swing era"],
+    "blurb": "A rite of passage for tenor players. It was the last song Amy Winehouse recorded before her passing, yet it became a hit and a landmark of improvised storytelling. The bridge's half-step lift is a classic test of harmonic fluency.",
+    "recordings": [
+      { "artist": "Coleman Hawkins", "album": "Body and Soul (single)", "recorded": 1939 },
+      { "artist": "John Coltrane", "album": "Coltrane's Sound", "recorded": 1960 },
+      { "artist": "Amy Winehouse and Tony Bennett", "album": "Duets Volume 1", "recorded": 2011 }
+    ],
+    "votes": 18
+  },
+  {
+    "slug": "autumn-leaves",
+    "title": "Autumn Leaves",
+    "composers": ["Joseph Kosma", "Jacques Prévert", "Johnny Mercer"],
+    "year": 1945,
+    "form": "AABC, 32 bars",
+    "tags": ["Great American Songbook", "jam session", "beginner-friendly"],
+    "blurb": "The usual standard learnt at the collegiate/high school level for all jazz musicians. Built almost entirely from ii–V–I progressions in a relative major and minor, it's the tune most players learn first when they start improvising over changes.",
+    "recordings": [
+      { "artist": "Cannonball Adderley", "album": "Somethin' Else", "recorded": 1958 },
+      { "artist": "Bill Evans Trio", "album": "Portrait in Jazz", "recorded": 1959 }, 
+      { "artist": "Danielle Wertz and Tal Cohen", "album": "Intertwined", "recorded": 2017 }
+    ],
+    "votes": 24
+  },
+  {
+    "slug": "all-the-things-you-are",
+    "title": "All the Things You Are",
+    "composers": ["Jerome Kern", "Oscar Hammerstein II"],
+    "year": 1939,
+    "form": "AABA, 36 bars",
+    "tags": ["Great American Songbook", "bebop favorite"],
+    "blurb": "A Broadway tune that beboppers adopted as a harmonic workout. It glides through key after key, and the extra four bars at the end catch anyone counting on a standard 32.",
+    "recordings": [
+      { "artist": "Sonny Rollins & Coleman Hawkins", "album": "Sonny Meets Hawk!", "recorded": 1963 },
+      { "artist": "Ella Fitzgerald", "album": "Ella Fitzgerald Sings the Jerome Kern Song Book", "recorded": 1963 }
+    ],
+    "votes": 21
+  },
+  {
+    "slug": "round-midnight",
+    "title": "'Round Midnight",
+    "composers": ["Thelonious Monk", "Cootie Williams", "Bernie Hanighen"],
+    "year": 1944,
+    "form": "AABA, 32 bars",
+    "tags": ["ballad", "bebop"],
+    "blurb": "Monk's dark, slow-burning ballad, full of chromatic voice leading and unexpected resolutions. Miles Davis's quintet version made it a signature, but Monk's own recordings show how much the tune lives in its harmony.",
+    "recordings": [
+      { "artist": "Thelonious Monk", "album": "Genius of Modern Music, Vol. 1", "recorded": 1947 },
+      { "artist": "Miles Davis", "album": "'Round About Midnight", "recorded": 1956 }
+    ],
+    "votes": 27
+  },
+  {
+    "slug": "take-the-a-train",
+    "title": "Take the \"A\" Train",
+    "composers": ["Billy Strayhorn"],
+    "year": 1939,
+    "form": "AABA, 32 bars",
+    "tags": ["swing era", "big band"],
+    "blurb": "The Ellington Orchestra's theme song. Strayhorn built it from the subway directions to Harlem's Sugar Hill, and the bright, unexpected II7 chord in bar three gives it its lift.",
+    "recordings": [
+      { "artist": "Duke Ellington and His Orchestra", "album": "Take the \"A\" Train (single)", "recorded": 1941 },
+      { "artist": "Ella Fitzgerald", "album": "Ella Fitzgerald Sings the Duke Ellington Song Book", "recorded": 1957 }
+    ],
+    "votes": 15
+  },
+  {
+    "slug": "so-what",
+    "title": "So What",
+    "composers": ["Miles Davis"],
+    "year": 1959,
+    "form": "AABA, 32 bars (modal)",
+    "tags": ["modal", "post-bop"],
+    "blurb": "Two chords, sixteen bars apiece. The opening track of Kind of Blue swapped fast-moving changes for long stretches of a single mode, opening space for melody and tone. The call-and-response between bass and horns is instantly recognizable.",
+    "recordings": [
+      { "artist": "Miles Davis", "album": "Kind of Blue", "recorded": 1959 }
+    ],
+    "votes": 30
+  },
+  {
+    "slug": "blue-bossa",
+    "title": "Blue Bossa",
+    "composers": ["Kenny Dorham"],
+    "year": 1963,
+    "form": "16 bars",
+    "tags": ["bossa nova", "hard bop", "beginner-friendly"],
+    "blurb": "A minor-key bossa with a quick detour up a half step before it comes home. Short, groovy, and forgiving, it's a go-to first tune at jam sessions.",
+    "recordings": [
+      { "artist": "Joe Henderson", "album": "Page One", "recorded": 1963 }
+    ],
+    "votes": 12
+  },
+  {
+    "slug": "like-someone-in-love",
+    "title": "Like Someone in Love",
+    "composers": ["Jimmy Van Heusen", "Johnny Burke"],
+    "year": 1944,
+    "form": "AABC, 32 bars",
+    "tags": ["ballad", "Great American Songbook", "vocal"],
+    "blurb": "The lyrics of this love song really stem deep into the romantic soul. Written originally for film, Like Someone in Love has transcended in popularity and become a jazz standard covered by countless artists.",
+    "recordings": [
+      { "artist": "Dinah Shore", "album": "Belle of the Yukon", "recorded": 1944 },
+      { "artist": "Bjork", "album": "Debut", "recorded": 1993 }
+    ],
+    "votes": 25
+  },
+  {
+    "slug": "there-will-never-be-another-you",
+    "title": "There Will Never Be Another You",
+    "composers": ["Harry Warren", "Mack Gordon"],
+    "year": 1942,
+    "form": "AABA, 36 bars",
+    "tags": ["standard", "Great American Songbook", "vocal"],
+    "blurb": "A minor ballad driven by a descending chromatic line beneath the melody. Chet Baker's fragile vocal defined it for one generation; Miles Davis's 1964 live version stretched it into something restless and searching.",
+    "recordings": [
+      { "artist": "Chet Baker", "album": "Chet Baker Sings", "recorded": 1954 },
+      { "artist": "Stan Getz Quartet", "album": "The Streamer", "recorded": 1957 }
+    ],
+    "votes": 16
+  },
+  {
+    "slug": "giant-steps",
+    "title": "Giant Steps",
+    "composers": ["John Coltrane"],
+    "year": 1959,
+    "form": "16 bars",
+    "tags": ["post-bop", "advanced"],
+    "blurb": "Key centers that leap by major thirds at a blistering tempo. The \"Coltrane changes\" became a rite of passage, and even Tommy Flanagan audibly wrestled with them on the original session.",
+    "recordings": [
+      { "artist": "John Coltrane", "album": "Giant Steps", "recorded": 1959 }
+    ],
+    "votes": 16
+  },
+  {
+    "slug": "stella-by-starlight",
+    "title": "Stella by Starlight",
+    "composers": ["Victor Young", "Ned Washington"],
+    "year": 1944,
+    "form": "32 bars, through-composed",
+    "tags": ["Great American Songbook", "film"],
+    "blurb": "Written for the film The Uninvited, it opens on a half-diminished chord and winds through a progression that never quite repeats. A favorite for players who like harmony that keeps them guessing.",
+    "recordings": [
+      { "artist": "Miles Davis", "album": "My Funny Valentine", "recorded": 1964 }
+    ],
+    "votes": 14
+  },
+  {
+    "slug": "footprints",
+    "title": "Footprints",
+    "composers": ["Wayne Shorter"],
+    "year": 1966,
+    "form": "12-bar minor blues in 6/4",
+    "tags": ["post-bop", "modal"],
+    "blurb": "A minor blues reimagined over a hypnotic bass ostinato. The Miles Davis Quintet loosened it further, letting the rhythm section stretch and contract time underneath the soloists.",
+    "recordings": [
+      { "artist": "Wayne Shorter", "album": "Adam's Apple", "recorded": 1966 },
+      { "artist": "Miles Davis", "album": "Miles Smiles", "recorded": 1966 }
+    ],
+    "votes": 20
+  }
+]
